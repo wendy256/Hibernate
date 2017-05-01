@@ -14,7 +14,7 @@ public class EventManager {
         EventManager mgr = new EventManager();
 
         if (args[0].equals("store")) {
-            mgr.createAndStoreEvent("Examen ISMA-4", new Date());
+            mgr.createAndStoreEvent("Examen Topicos Avanzados", new Date());
         }
 
         HibernateUtil.getSessionFactory().close();
